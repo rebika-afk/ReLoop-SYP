@@ -1,0 +1,16 @@
+{
+  "name": "reloop",
+  "version": "1.0.0",
+  "description": "ReLoop — Multi-category pre-owned marketplace & resale platform (Backend API)",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix backend run dev",
+    "start": "npm --prefix backend start",
+    "seed": "npm --prefix backend run seed",
+    "prisma:generate": "npm --prefix backend run prisma:generate",
+    "prisma:migrate": "npm --prefix backend run prisma:migrate",
+    "prisma:studio": "npm --prefix backend run prisma:studio",
+    "test": "npm --prefix backend test",
+    "test:watch": "npm --prefix backend run test:watch"
+  }
+}
